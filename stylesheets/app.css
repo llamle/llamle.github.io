@@ -1,0 +1,67 @@
+body{
+    width:100vw;
+    height: 100vh;
+}
+
+#board{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scorebox{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.playerOne{
+    width: 25%;
+}
+
+.playerTwo{
+    width: 25%;
+}
+
+div {
+    float:left;
+    width: 30%;
+    padding-bottom: 30%;
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.square:hover{
+    background-color: red;
+}
+
+.square.X{
+    background-color: green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+.square.O{
+    background-color: yellow;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+li{
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  width:100px;
+  height:150px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
