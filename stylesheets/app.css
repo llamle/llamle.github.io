@@ -50,6 +50,8 @@ h2{
     border-radius: 20px;
     font-family: 'Kaushan Script', cursive;
     font-size: 65px;
+    border-color: red;
+    border-width: 5px;
 }
 
 .square:hover{
